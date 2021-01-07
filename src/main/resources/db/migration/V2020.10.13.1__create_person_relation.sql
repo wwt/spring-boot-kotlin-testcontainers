@@ -1,0 +1,5 @@
+CREATE TABLE person(
+  id SERIAL NOT NULL UNIQUE PRIMARY KEY,
+  name VARCHAR (255) NOT NULL,
+  preferred_name VARCHAR (255) NOT NULL
+);
